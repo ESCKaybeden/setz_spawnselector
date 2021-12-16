@@ -1,0 +1,280 @@
+body {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: hidden;
+  display: none;
+  opacity: -100%;
+}
+
+@font-face {
+  src: url("../html/fonts/Poppins-ExtraLight.ttf") format("truetype");
+  font-family: "ESCKaybedenPoppins";
+}
+.ESCKaybeden {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+.ESCKaybeden .esc_list1 {
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+  height: 100%;
+  width: 20%;
+  transition: 400ms all;
+  opacity: 70%;
+  filter: blur(0.5px);
+  background-image: url(../html/img/YellowJack.jpg);
+  background-position: 61% 0%;
+  background-size: cover;
+}
+.ESCKaybeden .esc_list1:hover {
+  opacity: 100%;
+  filter: blur(0px);
+}
+.ESCKaybeden .esc_list1 .esc_giris1 {
+  position: absolute;
+  bottom: -8vh;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 40%;
+  height: 5vh;
+  border-radius: 17px;
+  background-color: #00de00e4;
+  box-shadow: 0 0 2vh 0 #00ce007b;
+  transition: 400ms all;
+}
+.ESCKaybeden .esc_list1 .esc_giris1:hover {
+  background-color: #00ff00;
+  box-shadow: 0 0 2vh 0 #00ff00;
+}
+.ESCKaybeden .esc_list1 .esc_giris1 > p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: -25px;
+  font-size: 3vh;
+  font-family: "ESCKaybedenPoppins";
+  color: #ffffff;
+  text-shadow: 0 0 7px black;
+}
+.ESCKaybeden .esc_list1 .esc_giris1:checked {
+  transform: scale(0.9);
+}
+.ESCKaybeden .esc_list2 {
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+  height: 100%;
+  width: 20%;
+  transition: 400ms all;
+  opacity: 70%;
+  filter: blur(0.5px);
+  background-image: url(../html/img/motel.png);
+  background-position: 38% 0%;
+  background-size: cover;
+}
+.ESCKaybeden .esc_list2:hover {
+  opacity: 100%;
+  filter: blur(0px);
+}
+.ESCKaybeden .esc_list2 .esc_giris2 {
+  position: absolute;
+  bottom: -8vh;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 40%;
+  height: 5vh;
+  border-radius: 17px;
+  background-color: #00de00e4;
+  box-shadow: 0 0 2vh 0 #00ce007b;
+  transition: 400ms all;
+}
+.ESCKaybeden .esc_list2 .esc_giris2:hover {
+  background-color: #00ff00;
+  box-shadow: 0 0 2vh 0 #00ff00;
+}
+.ESCKaybeden .esc_list2 .esc_giris2 > p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: -25px;
+  font-size: 3vh;
+  font-family: "ESCKaybedenPoppins";
+  color: #ffffff;
+  text-shadow: 0 0 7px black;
+}
+.ESCKaybeden .esc_list2 .esc_giris2:checked {
+  transform: scale(0.9);
+}
+.ESCKaybeden .esc_list3 {
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+  height: 100%;
+  width: 20%;
+  transition: 400ms all;
+  opacity: 70%;
+  filter: blur(0.5px);
+  background-image: url(../html/img/sonkonum.png);
+  background-position: 20% 0%;
+  background-size: cover;
+}
+.ESCKaybeden .esc_list3:hover {
+  opacity: 100%;
+  filter: blur(0px);
+}
+.ESCKaybeden .esc_list3 .esc_giris3 {
+  position: absolute;
+  bottom: -8vh;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 40%;
+  height: 5vh;
+  border-radius: 17px;
+  background-color: #00de00e4;
+  box-shadow: 0 0 2vh 0 #00ce007b;
+  transition: 400ms all;
+}
+.ESCKaybeden .esc_list3 .esc_giris3:hover {
+  background-color: #00ff00;
+  box-shadow: 0 0 2vh 0 #00ff00;
+}
+.ESCKaybeden .esc_list3 .esc_giris3 > p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: -25px;
+  font-size: 3vh;
+  font-family: "ESCKaybedenPoppins";
+  color: #ffffff;
+  text-shadow: 0 0 7px black;
+}
+.ESCKaybeden .esc_list3 .esc_giris3:checked {
+  transform: scale(0.9);
+}
+.ESCKaybeden .esc_list4 {
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+  height: 100%;
+  width: 20%;
+  transition: 400ms all;
+  opacity: 70%;
+  filter: blur(0.5px);
+  background-image: url(../html/img/havaalani.png);
+  background-position: 35% 0%;
+  background-size: cover;
+}
+.ESCKaybeden .esc_list4:hover {
+  opacity: 100%;
+  filter: blur(0px);
+}
+.ESCKaybeden .esc_list4 .esc_giris4 {
+  position: absolute;
+  bottom: -8vh;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 40%;
+  height: 5vh;
+  border-radius: 17px;
+  background-color: #00de00e4;
+  box-shadow: 0 0 2vh 0 #00ce007b;
+  transition: 400ms all;
+}
+.ESCKaybeden .esc_list4 .esc_giris4:hover {
+  background-color: #00ff00;
+  box-shadow: 0 0 2vh 0 #00ff00;
+}
+.ESCKaybeden .esc_list4 .esc_giris4 > p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: -25px;
+  font-size: 3vh;
+  font-family: "ESCKaybedenPoppins";
+  color: #ffffff;
+  text-shadow: 0 0 7px black;
+}
+.ESCKaybeden .esc_list4 .esc_giris4:checked {
+  transform: scale(0.9);
+}
+.ESCKaybeden .esc_list5 {
+  position: relative;
+  left: 0;
+  top: 0;
+  float: left;
+  height: 100%;
+  width: 20%;
+  transition: 400ms all;
+  opacity: 70%;
+  filter: blur(0.5px);
+  background-image: url(../html/img/isyeri.png);
+  background-position: 25% 0%;
+  background-size: cover;
+}
+.ESCKaybeden .esc_list5:hover {
+  opacity: 100%;
+  filter: blur(0px);
+}
+.ESCKaybeden .esc_list5 .esc_giris5 {
+  position: absolute;
+  bottom: -8vh;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 40%;
+  height: 5vh;
+  border-radius: 17px;
+  background-color: #00de00e4;
+  box-shadow: 0 0 2vh 0 #00ce007b;
+  transition: 400ms all;
+}
+.ESCKaybeden .esc_list5 .esc_giris5:hover {
+  background-color: #00ff00;
+  box-shadow: 0 0 2vh 0 #00ff00;
+}
+.ESCKaybeden .esc_list5 .esc_giris5 > p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: -25px;
+  font-size: 3vh;
+  font-family: "ESCKaybedenPoppins";
+  color: #ffffff;
+  text-shadow: 0 0 7px black;
+}
+.ESCKaybeden .esc_list5 .esc_giris5:checked {
+  transform: scale(0.9);
+}
+
+.esc_topbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 5vh;
+  left: 0;
+}
+.esc_topbar > p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: -20px;
+  font-size: 3vh;
+  font-family: "ESCKaybedenPoppins";
+  color: #fffffff4;
+  text-shadow: 0 0 10px black;
+}/*# sourceMappingURL=main.css.map */

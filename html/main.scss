@@ -1,0 +1,146 @@
+body {
+    user-select: none;
+    overflow: hidden;
+    display: none;
+    opacity: -100%;
+}
+
+$font_klasor: "../html/fonts";
+
+$esc_font1: "ESCKaybedenPoppins";
+
+@font-face {
+    src: url("#{$font_klasor}/Poppins-ExtraLight.ttf") format("truetype");
+    font-family: "ESCKaybedenPoppins";
+}
+
+
+@mixin esc_giris() {
+    position: absolute;
+    bottom: -8vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 40%;
+    height: 5vh;
+    border-radius: 17px;
+    background-color: #00de00e4;
+    box-shadow: 0 0 2vh 0 #00ce007b;
+    transition: 400ms all;
+    &:hover {
+        background-color: #00ff00;
+        box-shadow: 0 0 2vh 0 #00ff00;
+    }
+    > p {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: -25px;
+        font-size: 3vh;
+        font-family: $esc_font1;
+        color: #ffffff;
+        text-shadow: 0 0 7px black;
+    }
+    &:checked {
+        transform: scale(0.9);
+    }
+}
+
+@mixin esc_list() {
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    height: 100%;
+    width: 20%;
+    transition: 400ms all;
+
+    opacity: 70%;
+    filter: blur(.5px);
+
+    &:hover {
+        opacity: 100%;
+        filter: blur(0px);
+    }
+}
+
+.ESCKaybeden {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+
+    .esc_list1 {
+        @include esc_list();
+
+        background-image: url(../html/img/YellowJack.jpg);
+        background-position: 61% 0%;
+        background-size: cover;
+
+        .esc_giris1 {
+            @include esc_giris();
+        }
+    }
+    .esc_list2 {
+        @include esc_list();
+
+        background-image: url(../html/img/motel.png);
+        background-position: 38% 0%;
+        background-size: cover;
+        .esc_giris2 {
+            @include esc_giris();
+        }
+    }
+    .esc_list3 {
+        @include esc_list();
+
+        background-image: url(../html/img/sonkonum.png);
+        background-position: 20% 0%;
+        background-size: cover;
+
+        .esc_giris3 {
+            @include esc_giris();
+        }
+    }
+    .esc_list4 {
+        @include esc_list();
+
+        background-image: url(../html/img/havaalani.png);
+        background-position: 35% 0%;
+        background-size: cover;
+
+        .esc_giris4 {
+            @include esc_giris();
+        }
+    }
+    .esc_list5 {
+        @include esc_list();
+        background-image: url(../html/img/isyeri.png);
+        background-position: 25% 0%;
+        background-size: cover;
+
+        .esc_giris5 {
+            @include esc_giris();
+        }
+    }
+}
+
+.esc_topbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 5vh;
+    left: 0;
+    > p {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: -20px;
+        font-size: 3vh;
+        font-family: $esc_font1;
+        color: #fffffff4;
+        text-shadow: 0 0 10px black;
+    }
+}
